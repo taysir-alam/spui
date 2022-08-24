@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    color: #fff;
+}
+
+.otp-field{
+    display: flex;
+}
+
+.otp-field input {
+    width: 21px;
+    font-size: 32px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    margin: 2px;
+    border-radius: 2px solid black;
+    background-color: whitesmoke;
+    font-weight: 10;
+    color: black;
+    outline: none;
+    transition: all 0.1s;
+}
+
+.otp-field input:focus{
+    border: 2px solid grey;
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.button {
+    background-color: lime;
+    color: blanchedalmond;
+    align-items: center;
+
+}
+
+h4 {
+    color: black;
+
+}
