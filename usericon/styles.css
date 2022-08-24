@@ -1,0 +1,33 @@
+.user {
+    width: 100px;
+    height: 100px;
+    background-color: #D3D9D9;
+    border: 2px solid #D3D9D9;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.user::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 24px;
+}
+
+.user::after {
+    content:'';
+    width: 65px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 32px);
+    top: 63px;
+}
