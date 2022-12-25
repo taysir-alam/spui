@@ -1,2 +1,2 @@
-# Sovereign Prime UI Components 
-ui components for sovereign prime 
+# Reusable UI Components 
+some webapp UI components I made :) Just some basic JavaScript & HTML/CSS
